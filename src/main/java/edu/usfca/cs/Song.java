@@ -106,9 +106,9 @@ public class Song extends Entity {
      * @param otherSong name of an Song object
      */
     public boolean equals(Song otherSong) {
-        if ((this.album.equals(otherSong.getAlbum()) &&
+        if ((this.album.name.equals(otherSong.getAlbum().name) &&
                 this.name.equals(getName()) &&
-                this.artist.equals(otherSong.getArtist()))) {
+                this.artist.name.equals(otherSong.getArtist().name))) {
             return true;
         } else {
             return false;

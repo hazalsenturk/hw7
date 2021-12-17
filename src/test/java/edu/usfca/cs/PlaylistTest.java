@@ -3,8 +3,9 @@ package edu.usfca.cs;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import java.util.List;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * PlaylistTest is the class to test methods in the Playlist class
@@ -14,7 +15,6 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
  * @since       1.0
  */
 
-
 class PlaylistTest {
     Playlist list1;
     Playlist list2;
@@ -22,7 +22,6 @@ class PlaylistTest {
     String artist1, artist2, artist3, artist4, artist5, artist6, artist7, artist8, artist10;
     Song s1, s2, s3, s4, s5, s6, s7, s8, s9, s10;
     Boolean T=true, F=false;
-
     @BeforeEach
     void setUp(){
 
@@ -62,41 +61,28 @@ class PlaylistTest {
 
     }
 
+    @Test
+    void addAlbums() {
+        list1.addAlbums(s5);
+        assertTrue(list1.getAlbums().contains(s5.getAlbum()));
+    }
 
     @Test
-    void testAddSong(){
+    void addArtist() {
+        list1.addArtist(s5);
+        assertTrue(list1.getArtist().contains(s5.getArtist()));
+    }
+
+    @Test
+    void addSong() {
         list1.addSong(s10);
         System.out.println(list1.getSongs());
-//        assertTrue(list1.findSong(s1));
+        assertTrue(list1.getSongs().contains(s1));
     }
 
     @Test
-    void testDeleteSong(){
-        list1.deleteSong(s1);
-        list1.getSongs();
-        assertTrue(list1.findSong(s1));
-    }
-
-    @Test
-    void sortList() {
-        list1.getSongs();
-        list1.sortList();
-        System.out.println(list1);
-
-    }
-
-    @Test
-    void mergeLists() throws Exception {
-        list2.addSong(s9);
-        list1.mergeLists(list2.getSongs());
-        //System.out.println(list1.getSongs());
-    }
-
-    @Test
-    void shuffleList() {
-        System.out.println(list1.getSongs());
-        list1.shuffleList();
-        System.out.println(list1.getSongs());
+    void deleteSong() {
+        assertTrue(list1.deleteSong(s1));
     }
 
     @Test
@@ -105,8 +91,30 @@ class PlaylistTest {
     }
 
     @Test
+    void sortList() {
+        System.out.println(list1.sortList());
+    }
+
+    @Test
+    void mergeLists() {
+        System.out.println(list1.getSongs());
+        System.out.println(list2.getSongs());
+        list1.mergeLists(list2.getSongs());
+    }
+
+    @Test
+    void shuffleList() {
+        list1.shuffleList();
+        System.out.println(list1.getSongs());
+    }
+
+    @Test
     void randomList() {
-        //System.out.println(list3.getSongs());
-        System.out.println(list3.randomList("jazz"));
+        System.out.println(list1.randomList("pop"));
+    }
+
+    @Test
+    void writeXML() {
+        list1.writeXML();
     }
 }

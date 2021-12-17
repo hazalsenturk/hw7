@@ -202,8 +202,4 @@ public class Playlist extends Entity{
 
     }
 
-    public static void main(String[] args) {
-
-        writeXML();
-    }
 }

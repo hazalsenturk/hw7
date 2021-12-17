@@ -1,108 +1,120 @@
-<Library>
+<Playlist>
 <songs>
-	<song id= "324">
+	<song id= "22">
 		<title>Song 1</title>
-		<artist id="325">artist1</artist>
-		<album id="326">Album 1</album> </song>
-	<song id= "328">
+		<artist id="23">null</artist>
+		<album id="24">Album 1</album> </song>
+	<song id= "26">
 		<title>Song 2</title>
-		<artist id="329">artist2</artist>
-		<album id="330">Album 2</album> </song>
-	<song id= "332">
+		<artist id="27">null</artist>
+		<album id="28">Album 2</album> </song>
+	<song id= "30">
 		<title>Song 3</title>
-		<artist id="333">artist3</artist>
-		<album id="334">Album 3</album> </song>
-	<song id= "336">
+		<artist id="31">null</artist>
+		<album id="32">Album 3</album> </song>
+	<song id= "34">
 		<title>Song 4</title>
-		<artist id="337">artist4</artist>
-		<album id="338">Album 4</album> </song>
-	<song id= "340">
+		<artist id="35">null</artist>
+		<album id="36">Album 4</album> </song>
+	<song id= "38">
 		<title>Song 5</title>
-		<artist id="341">artist5</artist>
-		<album id="342">Album 5</album> </song>
-	<song id= "344">
+		<artist id="39">null</artist>
+		<album id="40">Album 5</album> </song>
+	<song id= "42">
 		<title>Song 6</title>
-		<artist id="345">artist6</artist>
-		<album id="346">Album 6</album> </song>
-	<song id= "348">
+		<artist id="43">null</artist>
+		<album id="44">Album 6</album> </song>
+	<song id= "46">
 		<title>Song 7</title>
-		<artist id="349">artist7</artist>
-		<album id="350">Album 7</album> </song>
-	<song id= "352">
+		<artist id="47">null</artist>
+		<album id="48">Album 7</album> </song>
+	<song id= "50">
 		<title>Song 8</title>
-		<artist id="353">artist8</artist>
-		<album id="354">Album 8</album> </song>
-	<song id= "356">
+		<artist id="51">null</artist>
+		<album id="52">Album 8</album> </song>
+	<song id= "22">
 		<title>Song 1</title>
-		<artist id="357">Artist 1</artist>
-		<album id="358">Album 1</album> </song>
-	<song id= "360">
-		<title>Song 10</title>
-		<artist id="361">artist10</artist>
-		<album id="362">Album 1</album> </song>
+		<artist id="23">null</artist>
+		<album id="24">Album 1</album> </song>
+	<song id= "26">
+		<title>Song 2</title>
+		<artist id="27">null</artist>
+		<album id="28">Album 2</album> </song>
+	<song id= "30">
+		<title>Song 3</title>
+		<artist id="31">null</artist>
+		<album id="32">Album 3</album> </song>
+	<song id= "34">
+		<title>Song 4</title>
+		<artist id="35">null</artist>
+		<album id="36">Album 4</album> </song>
+	<song id= "38">
+		<title>Song 5</title>
+		<artist id="39">null</artist>
+		<album id="40">Album 5</album> </song>
+	<song id= "42">
+		<title>Song 6</title>
+		<artist id="43">null</artist>
+		<album id="44">Album 6</album> </song>
+	<song id= "46">
+		<title>Song 7</title>
+		<artist id="47">null</artist>
+		<album id="48">Album 7</album> </song>
+	<song id= "50">
+		<title>Song 8</title>
+		<artist id="51">null</artist>
+		<album id="52">Album 8</album> </song>
 </songs>
 <artists>
-	<artist id= "325">
-		<name>artist1</name>
+	<artist id= "23">
+		<name>null</name>
 	</artist>
-	<artist id= "329">
-		<name>artist2</name>
+	<artist id= "27">
+		<name>null</name>
 	</artist>
-	<artist id= "333">
-		<name>artist3</name>
+	<artist id= "31">
+		<name>null</name>
 	</artist>
-	<artist id= "337">
-		<name>artist4</name>
+	<artist id= "35">
+		<name>null</name>
 	</artist>
-	<artist id= "341">
-		<name>artist5</name>
+	<artist id= "39">
+		<name>null</name>
 	</artist>
-	<artist id= "345">
-		<name>artist6</name>
+	<artist id= "43">
+		<name>null</name>
 	</artist>
-	<artist id= "349">
-		<name>artist7</name>
+	<artist id= "47">
+		<name>null</name>
 	</artist>
-	<artist id= "353">
-		<name>artist8</name>
-	</artist>
-	<artist id= "357">
-		<name>Artist 1</name>
-	</artist>
-	<artist id= "361">
-		<name>artist10</name>
+	<artist id= "51">
+		<name>null</name>
 	</artist>
 </artists>
 <albums>
-	<album id= "326">
+	<album id= "24">
 		<title>Album 1</title>
 	</album>
-	<album id= "330">
+	<album id= "28">
 		<title>Album 2</title>
 	</album>
-	<album id= "334">
+	<album id= "32">
 		<title>Album 3</title>
 	</album>
-	<album id= "338">
+	<album id= "36">
 		<title>Album 4</title>
 	</album>
-	<album id= "342">
+	<album id= "40">
 		<title>Album 5</title>
 	</album>
-	<album id= "346">
+	<album id= "44">
 		<title>Album 6</title>
 	</album>
-	<album id= "350">
+	<album id= "48">
 		<title>Album 7</title>
 	</album>
-	<album id= "354">
+	<album id= "52">
 		<title>Album 8</title>
 	</album>
-	<album id= "358">
-		<title>Album 1</title>
-	</album>
-	<album id= "362">
-		<title>Album 1</title>
-	</album>
 </albums>
-</Library>
+</Playlist>

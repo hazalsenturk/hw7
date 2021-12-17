@@ -148,8 +148,12 @@ public class Library extends Entity {
         return false;
 
     }
-
-
+    public ArrayList<Artist> getArtists() {
+        return artist;
+    }
+    public ArrayList<Album> getAlbums() {
+        return albums;
+    }
     public ArrayList<Song> getSongs() {
         return songs;
     }
