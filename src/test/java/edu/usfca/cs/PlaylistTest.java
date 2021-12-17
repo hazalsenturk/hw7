@@ -74,7 +74,7 @@ class PlaylistTest {
     void testDeleteSong(){
         list1.deleteSong(s1);
         list1.getSongs();
-        assertFalse(list1.findSong(s1));
+        assertTrue(list1.findSong(s1));
     }
 
     @Test
