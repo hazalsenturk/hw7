@@ -1,0 +1,11 @@
+/**
+ * The Program allows users to access and manage their music library stored in music.db
+ * it uses SQLite as a DBMS to access the data in music.db
+ * if user choose to display the library, the data back from songs, albums,artists tables of the database
+ * if user choose to new, asks for the type of the new item; song, album or artist
+ * for the related item the methods used in the interface searches for the item in API and adds it to the database:
+ * The URL for the AudioDb API guide: https://www.theaudiodb.com/api_guide.php
+ *
+ * @author      Gizem Hazal Senturk
+ * @since       1.0
+ */
